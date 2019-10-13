@@ -15,8 +15,8 @@
     "16": "images/amznsmile_16.png",
     "32": "images/amznsmile_32.png",
     "48": "images/amznsmile_48.png",
-    "128": "images/gamznsmile_128.png",
-    "144": "images/gamznsmile_14.png"
+    "128": "images/amznsmile_128.png",
+    "144": "images/amznsmile_14.png"
   },
   "manifest_version": 2
 }
