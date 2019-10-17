@@ -1,6 +1,7 @@
 'use strict';
 var host = "https://smile.amazon.co.uk";
 
+// https://stackoverflow.com/a/12070823
 chrome.webRequest.onBeforeRequest.addListener(
   function(details) {
        return {redirectUrl: host + details.url.match(/^https?:\/\/[^\/]+([\S\s]*)/)[1]};
